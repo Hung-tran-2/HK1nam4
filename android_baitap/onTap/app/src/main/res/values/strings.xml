@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">onTap</string>
+    <string-array name="arr_ds_lop">
+        <item>Trịnh Văn A</item>
+        <item>Trịnh Văn B</item>
+        <item>Trịnh Văn C</item>
+        <item>Trịnh Văn D</item>
+        <item>Trịnh Văn E</item>
+        <item>Trịnh Văn F</item>
+        <item>Trịnh Văn G</item>
+        <item>Trịnh Văn H</item>
+        <item>Trịnh Văn I</item>
+    </string-array>
+</resources>

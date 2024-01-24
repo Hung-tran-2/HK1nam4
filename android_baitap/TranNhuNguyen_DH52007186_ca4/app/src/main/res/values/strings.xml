@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TranNhuNguyen_DH52007186_ca4</string>
+    <string-array name="arr_ms">
+        <item >dh52007133</item>
+        <item >dh52007134</item>
+    </string-array>
+    <string-array name="arr_lop">
+        <item>dh20_th10</item>
+        <item>dh20_th11</item>
+    </string-array>
+    <string-array name="arr_ten">
+        <item>an</item>
+        <item>nguyet</item>
+    </string-array>
+</resources>

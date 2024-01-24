@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/xanhduong"
+    tools:context=".activity.insertdata">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#03A9F4"
+        app:title="Menu" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Thêm ảnh"
+            android:textSize="8pt" />
+
+        <ImageButton
+            android:id="@+id/btnImg"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@color/xanhduong"
+            android:src="@drawable/baseline_image_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tên định danh:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtNickname"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày sinh:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtBirthday"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gmail:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtGmail"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Zalo:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtZalo"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Facebook:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtFb"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_weight=".3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Xspace:"
+            android:layout_marginLeft="10dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:id="@+id/edtXspace"
+            android:layout_weight=".6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".3"
+            android:text="Instagram:"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/edtInstagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm thông tin liên la mới"/>
+
+</LinearLayout>
